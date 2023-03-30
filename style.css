@@ -1,0 +1,22 @@
+h1 {
+    color:rgb(10, 62, 59);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+}
+
+/*A ruleset that arbitrarily spaces out words such that it forces a new line for each word. Not very maintainable.*/
+.new-line-each-word {
+    width: 1em;
+    word-spacing: 1em;
+    padding-left: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
