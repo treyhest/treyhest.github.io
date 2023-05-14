@@ -1,0 +1,16 @@
+/* A timeline style sheet*/
+
+.year{
+    display: flex;
+}
+
+.timeline{ 
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.critical { 
+    background-color: #DCDCDC;
+    border-radius: 25px;
+    padding: 20px;
+}
